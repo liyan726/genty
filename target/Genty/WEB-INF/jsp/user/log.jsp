@@ -13,9 +13,9 @@
  <link href="assets/styles.css" rel="stylesheet" media="screen">
 </head>
  <body id="login">
-    <div class="container">
+    <div class="，container">
 
-      <form class="form-signin" action="/Springmvc/log">
+      <form class="form-signin" action="/Genty/user/users">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input type="text" class="input-block-level" placeholder="Name Input" name="name">
          <input type="text" class="input-block-level" placeholder="Pas Input" name="id">

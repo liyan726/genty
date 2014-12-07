@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -13,8 +14,7 @@
  <link href="assets/styles.css" rel="stylesheet" media="screen">
 </head>
  <body id="login">
-    <div class="container">
-
+    <div class="，container">
       <form class="form-signin" action="/Genty/user/users">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input type="text" class="input-block-level" placeholder="Name Input" name="name">
@@ -28,6 +28,10 @@
     </div> <!-- /container -->
     <script src="vendors/jquery-1.9.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    <sec:authorize access="hasRole('ROLE_ADMIN')">
+    sdsd
+    </sec:authorize>
   </body>
 </html>
 

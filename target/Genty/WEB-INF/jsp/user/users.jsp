@@ -37,7 +37,7 @@
 		$("#re").toggle(100);
 		var par = name;
 		$.ajax({
-			url : "/Springmvc/user/json",
+			url : "/Genty/user/json",
 			type : "post",
 			dataType : "text",
 			data : {
@@ -72,20 +72,20 @@
 			<c:forEach items="${users}" var="sm">
 				<tr>
 					<td>${sm.id}</td>
-					<td><a href="/Springmvc/user/${sm.name}">${sm.name}</a></td>
+					<td><a href="/Genty/user/${sm.name}">${sm.name}</a></td>
 					<td><a href="javascript:show('${sm.name}')" id="hr">json显示</a></td>
 
 					<td><c:forEach items="${sm.cards}" var="su">
 							${su}
 						</c:forEach></td>
-					<td><a href="/Springmvc/user/dowload/${sm.file.hdName}">${sm.file.fileRealName}</a>
+					<td><a href="/Genty/user/dowload/${sm.file.hdName}">${sm.file.fileRealName}</a>
 					</td>
 				</tr>
 			</c:forEach>
 			<div id="re"></div>
 		</table>
 	
-		<a href="/Springmvc/user/add">
+		<a href="/Genty/user/add">
 		    <button type="button" class="btn btn-primary">添加用户</button>
 		</a>
 </body>

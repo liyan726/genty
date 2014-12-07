@@ -5,4 +5,6 @@ import com.genty.model.User;
 public interface UserMapper {
 
 	User selectUserByid(int id);
+	
+	User selectUserByname(String name);
 }

@@ -15,7 +15,7 @@ public class DateFactory {
     	List<User> users = new ArrayList<User>();
     	User user = new User();
 		user.setId(1);
-		user.setName("李四");
+		user.setName("鏉庡洓");
 		List lis = new ArrayList<Integer>();
 		lis.add(1);
 		lis.add(2);
@@ -23,7 +23,7 @@ public class DateFactory {
 
 		User user2 = new User();
 		user2.setId(2);
-		user2.setName("张三");
+		user2.setName("寮犱笁");
 		List lis2 = new ArrayList<Integer>();
 		lis2.add(1);
 		lis2.add(2);
@@ -31,7 +31,7 @@ public class DateFactory {
 
 		User user3 = new User();
 		user3.setId(3);
-		user3.setName("王五");
+		user3.setName("鐜嬩簲");
 		List lis3 = new ArrayList<Integer>();
 		lis3.add(1);
 		lis3.add(2);

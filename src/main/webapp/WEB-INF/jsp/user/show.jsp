@@ -32,7 +32,7 @@
 
 <body>
 
-<a  href="/Springmvc/user/add">添加用户</a>
+<a  href="/Gnety/user/add">添加用户</a>
 <br>
 	<div class="container">
   <table class="table table-hover">
@@ -47,7 +47,7 @@
 			</c:forEach>
 			</tr>
 			<tr>
-			  <a href="/Springmvc/user/${sm.file.filename}">${sm.file.filename}</a>
+			  <a href="/Genty/user/${sm.file.filename}">${sm.file.filename}</a>
 			</tr>
 		</table>
 		</div>
